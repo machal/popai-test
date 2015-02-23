@@ -1,0 +1,114 @@
+/*GENERAL*/
+
+.logo {
+	width: 175px;
+	height: auto;
+	margin: 0px;
+	border: 1px solid red;
+}
+
+.img-circle{
+	width: 200px;
+	height: 200px;
+	border: 8px solid rgba(255,0,0,0.7);
+	margin: 25px;
+	padding: -0px;
+}
+
+.header{
+	border-bottom: 2px solid rgb(153,153,154);
+	position: relative;
+	margin-bottom: 15px;
+	margin-top: 25px;
+	/*display: inline-block;*/
+}
+
+.footer{
+	border-top: 2px solid rgb(153,153,154);
+	padding-top: 25px;
+	margin-top: 15px;
+}
+
+.container-fluid{
+	border: 0px solid red;
+	/*display: flex;*/
+	/*align-items: center;*/
+}
+
+h2{
+	font-family: Raleway;
+	font-size: 30px;
+	font-weight: bold;
+	float: left;
+	color: rgb(204,0,51);
+	text-transform: uppercase;
+}
+
+.glyphicon{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.glyphicon-upload{
+	-webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.article-header{
+	border: 0px solid red;
+	display: inline;
+	float: right;
+	margin-top: 15px;
+}
+
+.article-header > p{
+	display: inline;
+	padding: 14px;
+}
+
+.headline{
+	font-weight: bold;
+	font-style: italic;
+}
+
+p{
+	font-family: Raleway;
+	font-size: 16px;
+	color: rgb(111,111,111);
+	margin-top: 25px;
+}
+
+/*NAVIGACE*/
+
+.nav{
+	border: 2px solid rgb(153,153,154);
+	padding-top: 15px;
+}
+
+.nav li {
+  display: inline;
+  padding-left: 0px;
+  padding-right: 0px;
+  vertical-align: middle;
+}
+
+.nav a{
+	font-size: 18px;
+	color: rgb(153,153,154);
+	padding: 10px 5px;
+	text-transform: uppercase;
+	border: 0px solid red;
+}
+
+.popai-menu{
+	background-color: rgb(153,153,154);
+	width: auto;
+	float: right;
+}
+
+.popai-menu a{
+	color: white;
+}
