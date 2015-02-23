@@ -115,6 +115,10 @@ p{
 /* HLAVNÍ NAVIGACE */
 
 .nav-main {
+	padding: 0;
+}	
+
+.nav-main-menu {
 	margin: 0;
 	padding: 0;
 	font-size: 18px;
@@ -123,15 +127,51 @@ p{
 
 /* Položka navigace */
 
-.nav-main li {
+.nav-main-menu li {
+	display: inline-block;
 	padding: 20px 0;
 }
 
-.nav-main a {
+.nav-main-menu a {
 	padding: 0 20px;	 
-	border-left: 1px solid #999999;
+	border-right: 1px solid #999999;
 }
 
-.nav-main li:first-child a {
-	border-left: none;
+.nav-main-menu li:last-child a {
+	border-right: none;
+}
+
+/* Vyhledávání u hlavní navigace */
+
+.nav-main-search {
+	margin: 0;
+	padding: 0;
+}
+
+/* Responzivní layout hlavní navigace */
+
+.nav-main-menu {
+	float: left;
+	width: 75%;
+}
+
+.nav-main-search {
+	float: right;
+	width: 25%;
+	text-align: right;
+	padding: 15px 0 20px;
+}	
+
+@media only screen and (max-width: 640px) {
+
+	.nav-main-menu {
+		width: auto;
+		float: none;
+	}
+
+	.nav-main-search {
+		width: auto;
+		float: none;		
+		text-align: center;
+	}
 }
