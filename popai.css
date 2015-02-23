@@ -111,3 +111,27 @@ p{
 .popai-menu a{
 	color: white;
 }
+
+/* HLAVNÍ NAVIGACE */
+
+.nav-main {
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	line-height: 1;
+}
+
+/* Položka navigace */
+
+.nav-main li {
+	padding: 20px 0;
+}
+
+.nav-main a {
+	padding: 0 20px;	 
+	border-left: 1px solid #999999;
+}
+
+.nav-main li:first-child a {
+	border-left: none;
+}
